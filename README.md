@@ -1,25 +1,10 @@
-# [JSL04] Submission: Monster Ternary Operator
+# [JSL04]: Monster Ternary Operator
 
-You will:
-1. Use the provided Starter Code Repository.
-2. Code your solution.
-3. Commit changes to your GitHub repository.
-4. Submit the GitHub Repository Link to the LMS [JSL04] Submission Project Tab.
 
-Check out the practice challenges on Scrimba here: https://scrimba.com/playlist/p9bvd5QH3
+**Challenge Scenario:** In this coding exercise, we were required to work with the Monster Ternary Operator. Use ternary operators to make decisions based on various scenarios involving Monster Energy drinks.
 
-**Challenge Scenario:** In this coding exercise, you will work with the Monster Ternary Operator. You'll use ternary operators to make decisions based on various scenarios involving Monster Energy drinks.
+In each of the challenges, the ternary operator was used to decide between two options based on a condition, demonstrating its utility for concise conditional logic.
 
-In each of these challenges, the ternary operator is used to decide between two options based on a condition, demonstrating its utility for concise conditional logic. Remember that while ternaries can make the code more succinct, they should be used judiciously to maintain readability, especially for more complex conditions.
-
-## What You Need to Do:
-
-1. Clone the provided Starter Code Repository to your local development environment (e.g., VSCode): https://github.com/CodeSpace-Academy/Module_4_StudentNo_Classcode_Group_Name-Surname_JSL04 
-2. Open the cloned project in your code editor.
-3. Code your solution for each of the challenges as per the provided instructions.
-4. Commit your changes to your local Git repository with meaningful commit messages.
-5. Push your local Git repository to your GitHub account.
-6. Verify that the changes have been successfully pushed to your GitHub repository.
 
 ## What You Need to Include:
 
