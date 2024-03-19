@@ -6,7 +6,7 @@
 
 let userPreference = 'Sugar-free'; // Possible values: 'Regular', 'Sugar-free', or undefined
 
-let flavorSelection = userPreference === 'Regular' ? `The user prefers the Sugar-free variety Monster Energy drink.`: `The user prefers the Regular variety Monster Energy drink`;
+let flavorSelection = userPreference === 'Regular' ? `The user prefers the Regular variety Monster Energy drink` : `The user prefers the Sugar-free variety Monster Energy drink.`;
 console.log(flavorSelection);
 
 // #### Challenge 2: Stock Check
