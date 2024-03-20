@@ -1,20 +1,20 @@
-// # [JSL04] Submission: Monster Ternary Operator
+// # [JSL04]: Monster Ternary Operator
 
 // #### Challenge 1: Flavor Selection
 // Given a variable that holds a user's preferred type of Monster Energy drink, 
 // print whether the user prefers a "Regular" or "Sugar-free" variety. If the preference is not set, default to "Regular".
 
-let userPreference = 'Sugar-free'; // Possible values: 'Regular', 'Sugar-free', or undefined
+let userPreference = `Sugar-free`; // Possible values: 'Regular', 'Sugar-free', or undefined
 
-let flavorSelection = userPreference === 'Regular' ? `The user prefers the Regular variety Monster Energy drink` : `The user prefers the Sugar-free variety Monster Energy drink.`;
-console.log(flavorSelection);
+let flavorSelection = (userPreference === `Sugar-free`) ?  `Sugar-free variety` : ` Regular variety `;
+console.log("User prefres: " + flavorSelection);
 
 // #### Challenge 2: Stock Check
 // You have a variable that tracks the number of Monster Energy cans left in the fridge. 
 // Use a ternary operator to print "Time to restock!" if the number is less than 5, or "We're stocked!" if the number is 5 or more.
 
 let cansLeft = 3; // Any number of cans
-let stockCheck = cansLeft < 5 ? "Time to restock": "We're stocked!";
+let stockCheck = (cansLeft < 5) ? "Time to restock": "We're stocked!";
 console.log(stockCheck);
 
 
@@ -24,7 +24,7 @@ console.log(stockCheck);
 
 let heartRate = 95; // Current heart rate in bpm
 
-let workoutIntensity = heartRate < 100 ? "Boost needed!" : "Energy levels are high!";
+let workoutIntensity = (heartRate < 100) ? "Boost needed!" : "Energy levels are high!";
 
 console.log(workoutIntensity);
 
@@ -34,7 +34,7 @@ console.log(workoutIntensity);
 // if the temperature is below or equal to 5°C, or "Needs a cooler!" if above 5°C.
 
 let currentTemp = 4; // Current temperature in °C
-let temperatureSuitability = currentTemp <= 5 ? "Chilled to perfection!" : "Needs a cooler!" ;
+let temperatureSuitability = (currentTemp <= 5) ? "Chilled to perfection!" : "Needs a cooler!" ;
 console.log(temperatureSuitability);
 
 
@@ -50,7 +50,7 @@ let currentHour = 22;
 // If it's between 7am and midnight (24-hour format), print "Unleash the beast!"
 // Otherwise, print "Better stick to water."
 
-let codingSession = currentHour > 7 && currentHour < 24 ? "Unleash the beast" : "Better stick to water.";
+let codingSession = (currentHour > 7 && currentHour < 24) ? "Unleash the beast" : "Better stick to water.";
 console.log(codingSession);
 
 
