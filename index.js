@@ -7,7 +7,7 @@
 let userPreference = `Sugar-free`; // Possible values: 'Regular', 'Sugar-free', or undefined
 
 let flavorSelection = (userPreference === `Sugar-free`) ?  `Sugar-free variety` : ` Regular variety `;
-console.log("User prefres: " + flavorSelection);
+console.log("User prefers: " + flavorSelection);
 
 // #### Challenge 2: Stock Check
 // The variable below tracks the number of Monster Energy cans left in the fridge. 
